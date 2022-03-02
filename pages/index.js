@@ -3,7 +3,7 @@ import Layout from "components/layouts/Main";
 
 import Carousel from "components/carousel/Carousel";
 import CallToAction from "components/calltoaction/callToAction";
-import Service from "components/service/service";
+import Service from "components/service/Service";
 
 import data from "data/pages.json";
 import { pullData } from "utils/pullData";
