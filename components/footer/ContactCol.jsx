@@ -4,8 +4,8 @@ const ContactCol = ({ data }) => {
   return (
     <div className="col-12 col-md-4 text-white px-3 mb-4 mb-md-0">
       <Link href="/" passHref>
-        <a className="me-5">
-          <Image src={`/images/${data.logoLight}`} alt={data.title} layout="intrinsic" height={60} width={370} />
+        <a className="me-5 d-block">
+          <Image src={`/images/${data.logoLight}`} alt={data.title} layout="responsive" width={300} height={50} />
         </a>
         {/* <a>
           <img src={`/images/${data.logoLight}`} alt={data.title} className="img-fluid mb-2" />

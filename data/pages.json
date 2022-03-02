@@ -57,6 +57,42 @@
     "icon": "phone",
     "services": [
       {
+        "heading": "Changed Heading",
+        "content": [
+          {
+            "p": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event."
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      },
+      {
+        "heading": "Heading 2",
+        "content": [
+          {
+            "p": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event."
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      },
+      {
+        "heading": "Heading 3",
+        "content": [
+          {
+            "p": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event."
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      },
+      {
         "heading": "Heading 1",
         "content": [
           {
