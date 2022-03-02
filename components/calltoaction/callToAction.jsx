@@ -11,7 +11,7 @@ const callToAction = ({ heading, content, refLink, refText }) => {
           })}
       </>
       {refLink && refText && (
-        <Link href={refLink}>
+        <Link href={refLink} passHref>
           <button className="btn btn-dark">{refText}</button>
         </Link>
       )}
