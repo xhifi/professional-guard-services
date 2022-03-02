@@ -4,10 +4,10 @@ const Carouosel = () => {
   const img = placeholder.src;
   return (
     <div
-      className="container-fluid py-5"
+      className="container-fluid p-0"
       style={{ backgroundImage: `url(${img})`, backgroundOrigin: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "top" }}
     >
-      <div className="text-white px-3 px-lg-5">
+      <div className="col-12 col-md-6 text-white py-5 px-3 px-lg-5 gradient-bg">
         <h1>Protecting You Like Our Own</h1>
         <p>
           For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate

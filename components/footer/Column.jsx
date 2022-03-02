@@ -1,8 +1,8 @@
 import Link from "next/link";
 const Column = ({ list, title }) => {
   return (
-    <div className="col text-white px-3">
-      <h5>{title}</h5>
+    <div className="col-12 col-md-4 col-lg-2 text-white px-3 mb-4 mb-lg-0">
+      <h5 className="text-main">{title}</h5>
       <ul className="list-unstyled m-0 p-0">
         {list.map((v, i) => {
           return (
