@@ -1,4 +1,4 @@
-const Feature = ({ heading, content, image, orientation }) => {
+const Feature = () => {
   return <h1>Hello Feature!</h1>;
 };
 
