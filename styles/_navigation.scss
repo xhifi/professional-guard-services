@@ -16,3 +16,6 @@
     color: $fg-color;
   }
 }
+.link-active {
+  @extend .bg-main;
+}

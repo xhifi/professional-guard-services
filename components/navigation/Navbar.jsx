@@ -13,7 +13,7 @@ const Navbar = () => {
             return (
               <li className="d-inline" key={index}>
                 <Link href={page.path} passHref>
-                  <a className={`d-inline-block p-2 text-white text-decoration-none btn-hov-tst ${router.pathname === page.path ? "bg-danger" : ""}`}>{page.title}</a>
+                  <a className={`d-inline-block p-2 text-white text-decoration-none btn-hov-tst ${router.pathname === page.path ? "link-active" : ""}`}>{page.title}</a>
                 </Link>
               </li>
             );
