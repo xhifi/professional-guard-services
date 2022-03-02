@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Policy Statements",
+    "subjects": [
+      {
+        "link": "/policy-statements/health-and-safety",
+        "text": "Health and Safety Policy"
+      },
+      {
+        "link": "/policy-statements/business-ethics",
+        "text": "Business Ethics"
+      },
+      {
+        "link": "/policy-statements/environmen",
+        "text": "Environmental Policy"
+      },
+      {
+        "link": "/policy-statements/data-protection",
+        "text": "Data Protection"
+      }
+    ]
+  },
+  {
+    "title": "Quick Links",
+    "subjects": [
+      {
+        "link": "/about-us",
+        "text": "Want to know more about us?"
+      },
+      {
+        "link": "/",
+        "text": "Follow us on Facebook"
+      },
+      {
+        "link": "/contact",
+        "text": "Contact to make an Enquiry"
+      }
+    ]
+  },
+  {
+    "title": "Recent News",
+    "subjects": [
+      {
+        "link": "https://www.sia.homeoffice.gov.uk/Pages/about-news.aspx",
+        "text": "All the latest Updates"
+      },
+      {
+        "link": "/services",
+        "text": "Take a look at our Services"
+      }
+    ]
+  }
+]

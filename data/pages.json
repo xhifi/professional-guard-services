@@ -1,0 +1,192 @@
+[
+  {
+    "title": "Home",
+    "path": "/",
+    "icon": "home",
+    "callToAction": {
+      "title": "Welcome to Professional Guard Services Ltd.",
+      "description": "",
+      "content": [
+        {
+          "p": "We are a privately owned and independent Security company based in the United Kingdom. We provide highly experienced SIA licensed security professionals throughout the United Kingdom. We are a team of reliable, dedicated and proud ambitions and offer a complete security guard services to our clients while offering static and mobile guards plus key holding and alarm response solutions."
+        },
+        {
+          "p": " We are experienced in providing security guard services to anyone for whatever reason and currently support to many industrial aspects including corporate sector, construction sites, private events as well as many industrial warehouses etc. Whether you need a temporary cover or long-term solution to your security needs, we help you to protect your lives, businesses and properties from crime."
+        }
+      ]
+    },
+    "features": [
+      {
+        "heading": "Some Heading",
+        "image": "",
+        "content": [
+          {
+            "p": "First Line of the Paragraph."
+          }
+        ],
+        "ref": {
+          "path": "",
+          "text": ""
+        }
+      }
+    ]
+  },
+  {
+    "title": "About Us",
+    "path": "/about-us",
+    "icon": "info",
+    "features": [
+      {
+        "heading": "Some Heading",
+        "image": "",
+        "content": [
+          {
+            "p": "First Line of the Paragraph."
+          }
+        ],
+        "ref": {
+          "path": "",
+          "text": ""
+        }
+      }
+    ]
+  },
+  {
+    "title": "Services",
+    "path": "/services",
+    "icon": "phone",
+    "services": [
+      {
+        "heading": "Heading 1",
+        "content": [
+          {
+            "p": "Lorem Ipsum Dolor Sit Amet"
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      },
+      {
+        "heading": "Heading 2",
+        "content": [
+          {
+            "p": "Lorem Ipsum Dolor Sit Amet Again"
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      },
+      {
+        "heading": "Heading 3",
+        "content": [
+          {
+            "p": "Lorem Ipsum Dolor Sit Amet Again and again and again"
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      }
+    ],
+    "features": [
+      {
+        "heading": "Some Heading",
+        "image": "",
+        "content": [
+          {
+            "p": "First Line of the Paragraph."
+          }
+        ],
+        "ref": {
+          "path": "",
+          "text": ""
+        }
+      }
+    ]
+  },
+  {
+    "title": "Cleaning",
+    "path": "/cleaning",
+    "icon": "user",
+    "features": [
+      {
+        "heading": "Some Heading",
+        "image": "",
+        "content": [
+          {
+            "p": "First Line of the Paragraph."
+          }
+        ],
+        "ref": {
+          "path": "",
+          "text": ""
+        }
+      }
+    ]
+  },
+  {
+    "title": "Careers",
+    "path": "/careers",
+    "icon": "stack",
+    "features": [
+      {
+        "heading": "Some Heading",
+        "image": "",
+        "content": [
+          {
+            "p": "First Line of the Paragraph."
+          }
+        ],
+        "ref": {
+          "path": "",
+          "text": ""
+        }
+      }
+    ]
+  },
+  {
+    "title": "Custom Page",
+    "path": "/custom-page",
+    "icon": "contact",
+    "features": [
+      {
+        "heading": "Some Heading",
+        "image": "",
+        "content": [
+          {
+            "p": "First Line of the Paragraph."
+          }
+        ],
+        "ref": {
+          "path": "",
+          "text": ""
+        }
+      }
+    ]
+  },
+  {
+    "title": "Contact Us",
+    "path": "/contact",
+    "icon": "phone",
+    "features": [
+      {
+        "heading": "Some Heading",
+        "image": "",
+        "content": [
+          {
+            "p": "First Line of the Paragraph."
+          }
+        ],
+        "ref": {
+          "path": "",
+          "text": ""
+        }
+      }
+    ]
+  }
+]

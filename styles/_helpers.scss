@@ -1,0 +1,16 @@
+.btn-main {
+  @extend .btn;
+  color: $fg-color;
+  background-color: $main;
+  border-color: $main;
+  transition: all 0.3s linear;
+  &:hover {
+    background-color: $main-light;
+    $border-color: $main-light;
+    transition: all 0.3s linear;
+  }
+}
+.bg-main {
+  background-color: $main;
+  color: $fg-color;
+}
