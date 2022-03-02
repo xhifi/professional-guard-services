@@ -20,7 +20,7 @@ export default function Home() {
     <Layout>
       <Carousel />
       {homeData && <CallToAction heading={homeData.callToAction.title} content={homeData.callToAction.content} />}
-      <Services data={servicesData.services} />
+      {servicesData.services && <Services data={servicesData.services} />}
     </Layout>
   );
 }
