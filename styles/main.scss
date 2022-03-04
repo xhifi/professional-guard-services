@@ -9,7 +9,7 @@
 @import "feature";
 @import "footer";
 @import "certificate";
-
+@import "accordion";
 h1,
 h2,
 h3,
@@ -21,4 +21,9 @@ h6 {
 }
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.progress {
+  @extend .mb-1;
+  height: 20px;
 }

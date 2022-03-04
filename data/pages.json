@@ -18,7 +18,8 @@
     "features": [
       {
         "heading": "Some Heading",
-        "image": "",
+        "image": "sg_female.jpg",
+        "orientation": "left",
         "content": [
           {
             "p": "First Line of the Paragraph."
@@ -28,6 +29,86 @@
           "path": "",
           "text": ""
         }
+      },
+      {
+        "heading": "Some Heading",
+        "image": "sg_female.jpg",
+        "orientation": "right",
+        "content": [
+          {
+            "p": "First Line of the Paragraph."
+          }
+        ],
+        "ref": {
+          "path": "",
+          "text": ""
+        }
+      },
+      {
+        "heading": "Some Heading",
+        "image": "sg_female.jpg",
+        "orientation": "left",
+        "content": [
+          {
+            "p": "First Line of the Paragraph."
+          }
+        ],
+        "ref": {
+          "path": "",
+          "text": ""
+        }
+      }
+    ],
+    "solutions": [
+      {
+        "heading": "Based in the United Kingdom",
+        "content": [
+          {
+            "p": "We are located in the United Kingdom Croydon area and from there, we get to deal in the whole United Kingdom with each and every potential or existing client. Being in the United Kingdom also helps us mitigate potential local threats and gives us a much diverse identification of problems that can occur for you."
+          }
+        ]
+      },
+      {
+        "heading": "Meeting the Industry Standards",
+        "content": [
+          {
+            "p": "We are fully accredited and meeting all the possible industry standards so that you can rely on us in the hour of need. We make sure that each and everything that is done for you is done right and by the books."
+          }
+        ]
+      },
+      {
+        "heading": "Around the Clock Support",
+        "content": [
+          {
+            "p": "You can call us anytime and from anywhere and we will make sure that we respond you. Our 24/7 calls policy has helped many people and we will continue to make sure that it keeps working that way."
+          }
+        ]
+      },
+      {
+        "heading": "100% Satisfaction Guaranteed",
+        "content": [
+          {
+            "p": "If we don't meet your expectations, we don't expect you to pay. And we put it right at no charge, obviously, if your claims can be proved, we uphold our promise."
+          }
+        ]
+      }
+    ],
+    "expertise": [
+      {
+        "heading": "Calls Answered",
+        "percent": "100"
+      },
+      {
+        "heading": "Sites Visited in 24 Hours",
+        "percent": "90"
+      },
+      {
+        "heading": "Work Scheduled within 24 Hours",
+        "percent": "93"
+      },
+      {
+        "heading": "Customer Satisfaction",
+        "percent": "90"
       }
     ]
   },
@@ -132,7 +213,8 @@
     "features": [
       {
         "heading": "Some Heading",
-        "image": "",
+        "image": "sg_female.jpg",
+        "orientation": "right",
         "content": [
           {
             "p": "First Line of the Paragraph."
