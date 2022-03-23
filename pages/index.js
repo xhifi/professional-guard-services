@@ -8,7 +8,7 @@ import Services from "components/service/Services";
 import ProgressBar from "components/progress/ProgressBar";
 import Accordion from "components/accordion/Accordion";
 import Features from "components/feature/Features";
-import SlideX from "components/carousel/slide";
+import SlideX from "components/carousel/Slide";
 
 import data from "data/pages.json";
 import { pullData } from "utils/pullData";
