@@ -28,7 +28,7 @@ const Slider = () => {
       >
         <SwiperSlide>
           <div className="slide-inner position-relative">
-            <Image src={placeholder.src} layout="fill" objectFit="cover" className="slide-img img-fluid position-absolute" />
+            <Image src={placeholder.src} priority layout="fill" objectFit="cover" className="slide-img img-fluid position-absolute" />
             <div className="container-fluid px-5 content">
               <div className="col-12 col-md-6 ps-0 ps-md-3">
                 <h1>Protecting You Like Our Own</h1>
@@ -45,7 +45,7 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide-inner position-relative">
-            <Image src={placeholder2.src} layout="fill" objectFit="cover" className="slide-img img-fluid position-absolute" />
+            <Image src={placeholder2.src} priority layout="fill" objectFit="cover" className="slide-img img-fluid position-absolute" />
             <div className="container-fluid px-5 content">
               <div className="col-12 col-md-6 ps-0 ps-md-3">
                 <h1>Providing High End Solutions</h1>
