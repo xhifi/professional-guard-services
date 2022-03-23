@@ -79,7 +79,9 @@ const ContactForm = () => {
         {state.succeeded ? "✓ Submitted" : "Submit"}
       </button>
 
-      {state.succeeded && <p className="text mt-3 text-center">Thank you for contacting us! We'll get back to you very soon! For emergency purposes, call us at 0800 0016 705.</p>}
+      {state.succeeded && (
+        <p className="text mt-3 text-center">Thank you for contacting us! We&apos;ll get back to you very soon! For emergency purposes, call us at 0800 0016 705.</p>
+      )}
     </form>
   );
 };
