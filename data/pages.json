@@ -17,42 +17,33 @@
     },
     "features": [
       {
-        "heading": "Some Heading",
-        "image": "sg_female.jpg",
+        "heading": "About Us",
+        "image": "sg-male-1.jpg",
         "orientation": "left",
-        "content": [
-          {
-            "p": "First Line of the Paragraph."
-          }
-        ],
+        "content": {
+          "p": [
+            "We are a Security company based in London, United Kingdom and made of a team of professional and dedicated members striving to give you the excellence your security needs demand. we have the experience to appreciate why you need responsiveness, dependability, honesty and excellent value for money. And that’s what we deliver.",
+            "We provide the best choice of reliable, effective and appropriate ways to meet your individual site requirements, risks and budgets.",
+            "Working around the clock, today we boast an almost outstanding record of satisfying our clients. We work 24/7 to receive your calls and queries so that no delay is induced in the process."
+          ]
+        },
         "ref": {
           "path": "",
           "text": ""
         }
       },
       {
-        "heading": "Some Heading",
+        "heading": "About Us",
         "image": "sg_female.jpg",
         "orientation": "right",
-        "content": [
-          {
-            "p": "First Line of the Paragraph."
-          }
-        ],
-        "ref": {
-          "path": "",
-          "text": ""
-        }
-      },
-      {
-        "heading": "Some Heading",
-        "image": "sg_female.jpg",
-        "orientation": "left",
-        "content": [
-          {
-            "p": "First Line of the Paragraph."
-          }
-        ],
+        "content": {
+          "p": [
+            "◉ 100% Clients Satisfaction Rate.",
+            "◉ We work hard and we work hard to protect you and your property from any harm that can be afflicted to it. We stand our guard when no one else does.",
+            "◉ We are always available, around the clock, 24/7 to answer your calls and to respond you as soon as we can.",
+            "◉ We charge you no hidden fees. No extra hidden costs, thus providing you with excellent services and economical support."
+          ]
+        },
         "ref": {
           "path": "",
           "text": ""

@@ -13,7 +13,7 @@ const Footer = ({ data, contactData }) => {
         </div>
       </div>
       <div className="bg-dark py-2 text-center text-secondary border-top border-secondary">
-        <p>{`Registered in England & Wales # ${contactData.reg} | All Rights Reserved Ⓒ`}</p>
+        <p className="mb-0">{`Registered in England & Wales # ${contactData.reg} | All Rights Reserved Ⓒ`}</p>
       </div>
     </>
   );

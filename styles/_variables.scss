@@ -1,7 +1,10 @@
 $main: #008000;
-$main-light: #00ff00;
+$main-light: #cdf7cd;
 $dark: #1b1b1b;
 $light: white;
 
 $fg-color: $light;
 $bg-color: $dark;
+
+$border-radius: 1rem;
+$border-radius-md: calc ($border-radius + ($border-radius * 0.25));

@@ -28,3 +28,10 @@ body {
   @extend .mb-1;
   height: 20px;
 }
+
+.pg-input {
+  &:focus {
+    @extend .shadow-none;
+    border: 1px solid black;
+  }
+}

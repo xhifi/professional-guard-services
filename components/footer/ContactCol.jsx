@@ -7,9 +7,6 @@ const ContactCol = ({ data }) => {
         <a className="me-5 d-block">
           <Image src={`/images/${data.logoLight}`} alt={data.title} layout="responsive" width={300} height={50} />
         </a>
-        {/* <a>
-          <img src={`/images/${data.logoLight}`} alt={data.title} className="img-fluid mb-2" />
-        </a> */}
       </Link>
       <p className="m-0">{data.address}</p>
       <p className="m-0">{data.phone}</p>

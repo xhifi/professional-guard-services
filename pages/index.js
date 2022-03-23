@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <Carousel />
+      <Slide />
       {homeData && <CallToAction heading={homeData.callToAction.title} content={homeData.callToAction.content} />}
       {servicesData.services && <Services data={servicesData.services} />}
       <Features data={homeData.features} />
@@ -32,7 +32,6 @@ export default function Home() {
           <ProgressBar data={homeData.expertise} />
         </div>
       </div>
-      <Slide />
     </Layout>
   );
 }
