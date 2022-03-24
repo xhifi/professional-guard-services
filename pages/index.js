@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import Layout from "components/layouts/Main";
 
-import CTA from "components/calltoaction/CallToAction";
+import CallAction from "components/calltoaction/CallToAction";
 import Services from "components/service/Services";
 import ProgressBar from "components/progress/ProgressBar";
 import Accordion from "components/accordion/Accordion";
@@ -25,7 +25,7 @@ export default function Home() {
     <Layout>
       <Head></Head>
       <Slider />
-      {homeData && <CTA heading={homeData.callToAction.title} content={homeData.callToAction.content} />}
+      {homeData && <CallAction heading={homeData.callToAction.title} content={homeData.callToAction.content} />}
       {servicesData.services && <Services data={servicesData.services} />}
       <Features data={homeData.features} />
       <div className="container-fluid py-5 px-md-5">
