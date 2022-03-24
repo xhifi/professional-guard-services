@@ -8,7 +8,7 @@ import ProgressBar from "components/progress/ProgressBar";
 import Accordion from "components/accordion/Accordion";
 import Features from "components/feature/Features";
 import Slider from "components/carousel/Slide";
-import CallAction from "components/calltoaction/CallToAction";
+import CallToAction from "components/calltoaction/Cta";
 
 import { pullData } from "utils/pullData";
 
@@ -25,7 +25,7 @@ export default function Home() {
     <Layout>
       <Head></Head>
       <Slider />
-      {/* {homeData && <CallAction heading={homeData.callToAction.title} content={homeData.callToAction.content} />} */}
+      {homeData && <CallToAction heading={homeData.callToAction.title} content={homeData.callToAction.content} />}
       {servicesData.services && <Services data={servicesData.services} />}
       <Features data={homeData.features} />
       <div className="container-fluid py-5 px-md-5">
