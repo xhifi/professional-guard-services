@@ -14,6 +14,18 @@
     },
     "jobForm": {
       "name": "Job Form",
+      "actions": [{ "type": "email", "to": "info@pgssecurityfm.co.uk" }],
+      "fields": {
+        "email": {
+          "required": true
+        },
+        "phone": {
+          "required": false
+        }
+      }
+    },
+    "siteInspectionForm": {
+      "name": "Site Inspection Form",
       "actions": [{ "type": "email", "to": "info@pgssecurityfm.co.uk" }]
     }
   }

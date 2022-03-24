@@ -1,6 +1,6 @@
 const Hero = ({ heading, description, map }) => {
   return (
-    <div className="container-fluid px-md-5 pt-4 pb-5 bg-main text-white">
+    <div className="container-fluid px-md-5 py-4 bg-main text-white">
       <h2 className="text-bold">{heading}</h2>
       {description && <p className="mb-0">{description}</p>}
       {map === "true" && (
