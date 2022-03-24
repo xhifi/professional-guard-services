@@ -1,10 +1,10 @@
 import { useForm, ValidationError } from "@formspree/react";
 
-const ContactForm = () => {
+const Form = () => {
   const [state, handleSubmit] = useForm("contactForm");
 
   return (
-    <form className="bg-main p-4 border-r" onSubmit={handleSubmit}>
+    <form className="container bg-main p-4 border-r mb-5 mt-3 col-12 col-md-9" onSubmit={handleSubmit}>
       <div className="row">
         <div className="form-part col mb-3">
           <label className="form-label" htmlFor="name">
@@ -50,7 +50,7 @@ const ContactForm = () => {
 
       <div className="form-part mb-3">
         <label className="form-label" htmlFor="address">
-          Inspection Site Address*
+          Personal Address*
         </label>
         <input
           className={`form-control pg-input shadow ${state.succeeded && "text-secondary bg-main-light bg-gradient"}`}
@@ -87,4 +87,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default Form;

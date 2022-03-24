@@ -1,8 +1,10 @@
 import Layout from "components/layouts/Main";
 import Hero from "components/Hero";
 import ContactForm from "components/form/ContactForm";
+import SideDetails from "components/form/ContactFormSideBar";
 
 import data from "data/pages.json";
+import siteMetaData from "data/siteData.json";
 import { pullData } from "utils/pullData";
 
 const contactData = pullData(data, "/contact");
@@ -16,7 +18,9 @@ const contact = () => {
           <div className="col-12 col-md-8 mb-3 mb-md-0">
             <ContactForm />
           </div>
-          <div className="col-12 col-md-4">Details Portion</div>
+          <div className="col-12 col-md-4">
+            <SideDetails siteData={siteMetaData} />
+          </div>
         </div>
       </main>
     </Layout>

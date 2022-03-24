@@ -1,10 +1,11 @@
-import Link from "next/link";
-const Service = ({ heading, content, refLink, refText }) => {
+const Service = ({ heading, content, refLink, refText, icon }) => {
   return (
     <div className="col">
       <div className="card h-100 justify-content-center border-0 text-center">
-        <div className="bg-main rounded-circle mb-3 mx-auto" style={{ width: "110px", height: "110px" }}></div>
-        <h2>{heading}</h2>
+        <div className="bg-main bg-gradient shadow rounded-circle mb-3 mx-auto d-flex align-items-center justify-content-center" style={{ width: "100px", height: "100px" }}>
+          <i className={`h1 mb-0 bi bi-${icon}`}></i>
+        </div>
+        <span className="h3">{heading}</span>
         <>
           {content &&
             content.map((v, i) => {

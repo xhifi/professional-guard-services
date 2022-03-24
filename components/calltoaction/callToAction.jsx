@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-const callToAction = ({ heading, content, refLink, refText }) => {
+const CallToAction = ({ heading, content, refLink, refText }) => {
   return (
-    <div className="container-fluid px-3 px-lg-5 py-5 text-center bg-main">
+    <div className="container-fluid px-3 px-lg-5 py-5 text-center bg-main bg-gradient">
       <h2>{heading}</h2>
       <>
         {content &&
@@ -19,4 +19,4 @@ const callToAction = ({ heading, content, refLink, refText }) => {
   );
 };
 
-export default callToAction;
+export default CallToAction;

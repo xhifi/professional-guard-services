@@ -2,7 +2,7 @@ const Hero = ({ heading, description, map }) => {
   return (
     <div className="container-fluid px-md-5 pt-4 pb-5 bg-main text-white">
       <h2 className="text-bold">{heading}</h2>
-      {description && <p>{description}</p>}
+      {description && <p className="mb-0">{description}</p>}
       {map === "true" && (
         <div className="map-responsive">
           <iframe

@@ -129,10 +129,11 @@
     "icon": "phone",
     "services": [
       {
-        "heading": "Changed Heading",
+        "heading": "Uniformed Services",
+        "icon": "shield-shaded",
         "content": [
           {
-            "p": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event."
+            "p": "We are fully licensed and legally active security guard company. Our background checked security guards are available for your needs."
           }
         ],
         "ref": {
@@ -141,10 +142,11 @@
         }
       },
       {
-        "heading": "Heading 2",
+        "heading": "Key Holding and Alarm Response",
+        "icon": "key-fill",
         "content": [
           {
-            "p": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event."
+            "p": "We hold all keys and keep them in a secure environment and hold your keys with GPS technology making sure they are safe and fulfill their purpose securely."
           }
         ],
         "ref": {
@@ -153,10 +155,11 @@
         }
       },
       {
-        "heading": "Heading 3",
+        "heading": "Mobile Patrols",
+        "icon": "megaphone-fill",
         "content": [
           {
-            "p": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event."
+            "p": "We also provide GPS equipped mobile patrol guards around your premesis so that they can actively monitor and accurately record times of visits and alarm responses."
           }
         ],
         "ref": {
@@ -165,10 +168,11 @@
         }
       },
       {
-        "heading": "Heading 1",
+        "heading": "Electronic Services",
+        "icon": "gear-wide-connected",
         "content": [
           {
-            "p": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event."
+            "p": "We also tailor additional technical services such as CCTV systems installation, on-site communication systems and remote managemet solutions."
           }
         ],
         "ref": {
@@ -177,10 +181,11 @@
         }
       },
       {
-        "heading": "Heading 2",
+        "heading": "Reception Services",
+        "icon": "chat-quote-fill",
         "content": [
           {
-            "p": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event."
+            "p": "We provide fully trained receptionists to make sure your staff and visitors day runs smoothly. The first thing that your clients see or meet when entering can be safety regulated by entry cameras and a receptionist."
           }
         ],
         "ref": {
@@ -189,10 +194,11 @@
         }
       },
       {
-        "heading": "Heading 3",
+        "heading": "Cleaning Services",
+        "icon": "recycle",
         "content": [
           {
-            "p": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event."
+            "p": "We provide a comprehensive cleaning services to our clients that include regular cleanups for fabrics to a full on full site cleaning services."
           }
         ],
         "ref": {

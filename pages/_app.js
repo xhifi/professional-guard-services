@@ -1,4 +1,5 @@
 import "../styles/main.scss";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import { FormspreeProvider } from "@formspree/react";
 
 function MyApp({ Component, pageProps }) {
