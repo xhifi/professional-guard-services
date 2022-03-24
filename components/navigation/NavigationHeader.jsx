@@ -11,7 +11,7 @@ const NavigationHeader = (props) => {
 
       <Link href={`tel:${phone}`} passHref>
         <a className="ms-3 ms-md-0 btn-nav-special">
-          <i class="bi bi-telephone-fill me-2"></i>
+          <i className="bi bi-telephone-fill me-2"></i>
           {phone}
         </a>
       </Link>

@@ -7,4 +7,4 @@ $fg-color: $light;
 $bg-color: $dark;
 
 $border-radius: 1rem;
-$border-radius-md: calc ($border-radius + ($border-radius * 0.25));
+$border-radius-md: calc $border-radius * 1.25;

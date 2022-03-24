@@ -1,20 +1,26 @@
+import { useState } from "react";
 import Link from "next/link";
 import data from "data/pages.json";
 import { useRouter } from "next/router";
 
 const Navbar = () => {
   const router = useRouter();
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <>
       <div className="bg-dark d-flex align-items-right px-3 px-lg-5 d-md-none">
-        <button className="ms-auto btn btn-main my-2">
+        <button className="ms-auto btn btn-light my-2 text-main" onClick={handleMenuClick}>
           <i className="me-1 bi bi-list"></i> <span>Menu</span>
         </button>
       </div>
       <div className="container-fluid bg-dark">
-        <nav className="">
-          <ul className="list-unstyled p-0 m-0 d-flex align-items-md-center flex-wrap flex-column flex-md-row py-2 w-100">
+        <nav>
+          <ul className={`list-unstyled p-0 m-0 align-items-md-center flex-wrap flex-column flex-md-row pt-md-2 pb-2 w-100 ${menuOpen ? "d-flex" : "d-none d-md-flex"}`}>
             {data.map((page, index) => {
               return (
                 <li className="mb-1 mb-md-0 me-md-1" key={index}>
