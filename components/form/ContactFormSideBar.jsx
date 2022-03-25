@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 const ContactFormSideBar = ({ siteData }) => {
-  console.log(siteData);
   return (
     <div>
       <span className="h3">Contact Information</span>
