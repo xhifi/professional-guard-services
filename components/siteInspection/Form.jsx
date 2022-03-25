@@ -65,13 +65,13 @@ const SiteInspection = () => {
       <div className="row">
         <div className="form-part mb-3 col-12 col-md-6">
           <label className="form-label" htmlFor="officerName">
-            Officer's Name*
+            Officer&apos;s Name*
           </label>
           <input
             className={`form-control pg-input shadow ${state.succeeded && "text-secondary bg-main-light bg-gradient"}`}
             id="officerName"
             type="text"
-            name="Officer's Name"
+            name="Officer Name"
             required
             disabled={state.succeeded}
           />
@@ -79,7 +79,7 @@ const SiteInspection = () => {
 
         <div className="form-part mb-3 col-12 col-md-6">
           <label className="form-label" htmlFor="siaNumber">
-            Officer's SIA Number (16 Digits)*
+            Officer&apos;s SIA Number (16 Digits)*
           </label>
           <input
             className={`form-control pg-input shadow ${state.succeeded && "text-secondary bg-main-light bg-gradient"}`}
@@ -87,7 +87,7 @@ const SiteInspection = () => {
             type="number"
             maxLength="16"
             minLength="16"
-            name="Officer's SIA Number"
+            name="Officer SIA Number"
             required
             disabled={state.succeeded}
           />
