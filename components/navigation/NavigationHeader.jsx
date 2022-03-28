@@ -12,13 +12,13 @@ const NavigationHeader = (props) => {
       </Link>
 
       <div>
-        <a href="https://www.facebook.com" target="_blank" className="bg-main btn me-1 d-none d-md-inline-block">
+        <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="bg-main btn me-1 d-none d-md-inline-block">
           <i className="bi bi-facebook"></i>
         </a>
-        <a href="https://www.twitter.com" target="_blank" className="bg-main btn me-1 d-none d-md-inline-block">
+        <a href="https://www.twitter.com" target="_blank" rel="noreferrer" className="bg-main btn me-1 d-none d-md-inline-block">
           <i className="bi bi-twitter"></i>
         </a>
-        <a href="https://www.googlemaps.com" target="_blank" className="bg-main btn me-1 d-none d-md-inline-block">
+        <a href="https://www.googlemaps.com" target="_blank" rel="noreferrer" className="bg-main btn me-1 d-none d-md-inline-block">
           <i className="bi bi-google"></i>
         </a>
         <Link href={`tel:${phone}`} passHref>

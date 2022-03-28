@@ -22,8 +22,8 @@ const Index = () => {
       {aboutData.features &&
         aboutData.features.map((v, i) => {
           return (
-            <div className="container-fluid px-3 px-lg-5">
-              <Feature key={i} orientation={v.orientation} content={v.content.p} heading={v.content.h} image={v.content.image} />
+            <div className="container-fluid px-3 px-lg-5" key={i}>
+              <Feature orientation={v.orientation} content={v.content.p} heading={v.content.h} image={v.content.image} />
             </div>
           );
         })}

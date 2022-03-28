@@ -15,13 +15,13 @@ const Navbar = () => {
     <>
       <div className="bg-dark d-flex align-items-right px-3 px-lg-5 d-md-none">
         <div className="d-flex align-items-center">
-          <a href="https://www.facebook.com" target="_blank" className="btn btn-main me-1 d-inline-block d-md-none">
+          <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="btn btn-main me-1 d-inline-block d-md-none">
             <i className="bi bi-facebook"></i>
           </a>
-          <a href="https://www.twitter.com" target="_blank" className="btn btn-main me-1 d-inline-block d-md-none">
+          <a href="https://www.twitter.com" target="_blank" rel="noreferrer" className="btn btn-main me-1 d-inline-block d-md-none">
             <i className="bi bi-twitter"></i>
           </a>
-          <a href="https://www.googlemaps.com" target="_blank" className="btn btn-main me-1 d-inline-block d-md-none">
+          <a href="https://www.googlemaps.com" target="_blank" rel="noreferrer" className="btn btn-main me-1 d-inline-block d-md-none">
             <i className="bi bi-google"></i>
           </a>
         </div>
