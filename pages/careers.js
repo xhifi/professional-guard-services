@@ -6,7 +6,7 @@ const data = "";
 const Careers = () => {
   return (
     <Layout>
-      <Hero heading="Job Careers at PGS Security" description="Lorem Ipsum" />
+      <Hero heading="Job Careers at PGS&amp;FM Security" description="" />
       <CareersMain data={data} />
     </Layout>
   );

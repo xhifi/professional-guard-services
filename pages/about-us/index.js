@@ -21,7 +21,11 @@ const Index = () => {
       <Hero heading={aboutData.title || "FIX HEADING ERROR"} description={aboutData.description} map="false" />
       {aboutData.features &&
         aboutData.features.map((v, i) => {
-          return <Feature key={i} orientation={v.orientation} content={v.content.p} heading={v.content.h} image={v.content.image} />;
+          return (
+            <div className="container-fluid px-3 px-lg-5">
+              <Feature key={i} orientation={v.orientation} content={v.content.p} heading={v.content.h} image={v.content.image} />
+            </div>
+          );
         })}
       <div className="container-fluid px-3 px-lg-5 mb-4">
         <h2>Our Expertise</h2>

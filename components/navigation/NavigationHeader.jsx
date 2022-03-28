@@ -11,12 +11,23 @@ const NavigationHeader = (props) => {
         </a>
       </Link>
 
-      <Link href={`tel:${phone}`} passHref>
-        <a className="ms-3 ms-md-0 btn-nav-special">
-          <i className="bi bi-telephone-fill me-2"></i>
-          {phone}
+      <div>
+        <a href="https://www.facebook.com" target="_blank" className="bg-main btn me-1 d-none d-md-inline-block">
+          <i className="bi bi-facebook"></i>
         </a>
-      </Link>
+        <a href="https://www.twitter.com" target="_blank" className="bg-main btn me-1 d-none d-md-inline-block">
+          <i className="bi bi-twitter"></i>
+        </a>
+        <a href="https://www.googlemaps.com" target="_blank" className="bg-main btn me-1 d-none d-md-inline-block">
+          <i className="bi bi-google"></i>
+        </a>
+        <Link href={`tel:${phone}`} passHref>
+          <a className="ms-3 ms-md-0 btn btn-main d-none d-md-inline-block">
+            <i className="bi bi-telephone-fill me-2"></i>
+            {phone}
+          </a>
+        </Link>
+      </div>
     </div>
   );
 };

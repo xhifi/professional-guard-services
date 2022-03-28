@@ -32,7 +32,7 @@ const Services = () => {
       {servicesData.features.map((v, i) => {
         return (
           <div className="container-fluid px-3 px-lg-5 mb-5" key={i}>
-            <Feature heading={v.heading} image={`/images/features/${v.image}`} content={[...v.content.p, ...v.content.ul]} />
+            <Feature heading={v.heading} image={`/images/features/${v.image}`} orientation="right" content={[...v.content.p, ...v.content.ul]} />
           </div>
         );
       })}

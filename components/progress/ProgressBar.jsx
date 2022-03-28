@@ -3,7 +3,7 @@ import React from "react";
 const ProgressBar = ({ data }) => {
   return (
     <div>
-      <h3>Hello World</h3>
+      <h3>Our Expertise</h3>
       {data.map((item, index) => {
         return (
           <div key={index}>

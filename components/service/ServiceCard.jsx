@@ -5,7 +5,7 @@ const ServiceCard = ({ data }) => {
   return data.map((v, i) => {
     return (
       <div className="col mb-4" key={i}>
-        <div className="card h-100">
+        <div className="card h-100 border-0 border-r shadow">
           <div className="image-container d-block">
             <Image src={`/images/services/${v.image}`} layout="intrinsic" width={1600 / 2} height={1000 / 2} className="card-img-top" alt="..." />
           </div>

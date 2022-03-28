@@ -3,7 +3,7 @@ import placeholder from "public/images/features/sg-male-2.jpg";
 
 const Feature = ({ orientation, content, heading, image }) => {
   return (
-    <div className="container-fluid px-3 px-md-5 py-3">
+    <div className="px-lg-2 px-3 py-3">
       {orientation === "left" ? (
         <div className="row row-cols-1 row-cols-md-2 align-items-center">
           <div className="col-12 col-md-6 col-lg-7 feature-content order-1 order-sm-2 order-md-1">

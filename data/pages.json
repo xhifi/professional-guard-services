@@ -53,7 +53,7 @@
         }
       },
       {
-        "heading": "About Us",
+        "heading": "Why Choose us?",
         "image": "sg_female.jpg",
         "orientation": "right",
         "content": {
@@ -125,13 +125,13 @@
   },
   {
     "title": "About Us",
-    "description": "Lipsum",
+    "description": "",
     "path": "/about-us",
     "icon": "info",
     "features": [
       {
         "heading": "About Us",
-        "image": "sg-male-1.jpg",
+        "image": "team-image.jpg",
         "orientation": "left",
         "content": {
           "h": "Welcome to Professional Guard Services Ltd.",
@@ -234,7 +234,7 @@
     "features": [
       {
         "heading": "Cleaning Services as a Whole",
-        "image": "sg_female.jpg",
+        "image": "cleaning.jpg",
         "orientation": "right",
         "content": {
           "p": [
@@ -278,7 +278,7 @@
       },
       {
         "heading": "Physical Security",
-        "image": "physical-security.jpg",
+        "image": "physical-security.png",
         "list": ["Steel Security Doors & Windows", "Concert Barriers", "Palisade Fencing", "Heras Fencing", "Lock Replacement"]
       }
     ]
