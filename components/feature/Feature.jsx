@@ -26,7 +26,11 @@ const Feature = ({ orientation, content, heading, image }) => {
             <h3>{heading}</h3>
             {content &&
               content.map((v, i) => {
-                return <p key={i}>{v}</p>;
+                return (
+                  <p key={i} className={`content-misv-${i}`}>
+                    {v}
+                  </p>
+                );
               })}
           </div>
         </div>

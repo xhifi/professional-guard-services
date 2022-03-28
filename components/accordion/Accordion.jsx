@@ -1,7 +1,7 @@
 const Accordion = ({ data }) => {
   return (
     <div className="accordion mb-3 mb-md-0" id="primaryAccordion">
-      <h3>Hello World</h3>
+      <h3>Our Solution</h3>
       {data.map((item, index) => {
         return (
           <div className="accordion-item" key={index}>

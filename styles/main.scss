@@ -36,3 +36,18 @@ body {
     border: 3px solid $main-light;
   }
 }
+.content-misv-0,
+.content-misv-1,
+.content-misv-2,
+.content-misv-3,
+.content-misv-4,
+.content-misv-5,
+.content-misv-6 {
+  @extend .mb-0, .ms-2;
+}
+
+.accordion-item {
+  &:nth-last-child(1) {
+    @extend .mb-2;
+  }
+}

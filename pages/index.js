@@ -24,11 +24,11 @@ export default function Home() {
   return (
     <Layout>
       <Head></Head>
-      <Slider />
+      <Slider data={homeData.slides} orientation="left" />
       {homeData && <CallToAction heading={homeData.callToAction.title} content={homeData.callToAction.content} />}
       {servicesData.services && <Services data={servicesData.services} />}
       <Features data={homeData.features} />
-      <div className="container-fluid py-5 px-md-5">
+      <div className="container-fluid pb-5 px-md-5">
         <div className="row row-cols-1 row-cols-md-2">
           <Accordion data={homeData.solutions} />
           <ProgressBar data={homeData.expertise} />

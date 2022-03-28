@@ -7,9 +7,21 @@
     z-index: -1;
   }
   .content {
-    @extend .py-5, .text-light;
+    min-height: 350px;
+    @extend .py-5, .text-light, .d-flex, .align-items-center, .h-100;
     z-index: 1;
     background: linear-gradient(90deg, black, rgba(0, 0, 0, 0));
+  }
+
+  .content-right {
+    @extend .py-5, .text-light;
+    z-index: 1;
+    background: linear-gradient(270deg, black, rgba(0, 0, 0, 0));
+  }
+  .content-center {
+    @extend .py-5, .text-light;
+    z-index: 1;
+    background: linear-gradient(0deg, black, rgba(0, 0, 0, 0));
   }
 }
 .swiper-button-prev {

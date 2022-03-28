@@ -15,6 +15,26 @@
         }
       ]
     },
+    "slides": [
+      {
+        "image": "1.png",
+        "title": "Protecting You Like Our Own",
+        "description": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event.",
+        "link": {
+          "text": "About Us",
+          "ref": "/about-us"
+        }
+      },
+      {
+        "image": "2.png",
+        "title": "Providing High-End Security Solutions",
+        "description": "Since its inception, PGS&FM Security has become one of the fastest growing security providers in the Industry. We provides a comprehensive range of security services across a variety of industry sectors in all London.",
+        "link": {
+          "text": "Our Services",
+          "ref": "/services"
+        }
+      }
+    ],
     "features": [
       {
         "heading": "About Us",
@@ -105,17 +125,21 @@
   },
   {
     "title": "About Us",
+    "description": "Lipsum",
     "path": "/about-us",
     "icon": "info",
     "features": [
       {
-        "heading": "Some Heading",
-        "image": "",
-        "content": [
-          {
-            "p": "First Line of the Paragraph."
-          }
-        ],
+        "heading": "About Us",
+        "image": "sg-male-1.jpg",
+        "orientation": "left",
+        "content": {
+          "h": "Welcome to Professional Guard Services Ltd.",
+          "p": [
+            "We are a privately owned and independent Security company based in the United Kingdom. We provide highly experienced SIA licensed security professionals throughout the United Kingdom. We are a team of reliable, dedicated and proud ambitions and offer a complete security guard services to our clients while offering static and mobile guards plus key holding and alarm response solutions.",
+            "We are experienced in providing security guard services to anyone for whatever reason and currently support to many industrial aspects including corporate sector, construction sites, private events as well as many industrial warehouses etc. Whether you need a temporary cover or long-term solution to your security needs, we help you to protect your lives, businesses and properties from crime."
+          ]
+        },
         "ref": {
           "path": "",
           "text": ""
@@ -209,18 +233,53 @@
     ],
     "features": [
       {
-        "heading": "Some Heading",
+        "heading": "Cleaning Services as a Whole",
         "image": "sg_female.jpg",
         "orientation": "right",
-        "content": [
-          {
-            "p": "First Line of the Paragraph."
-          }
-        ],
+        "content": {
+          "p": [
+            "The best in class housekeeping services through quality staff, products and state of the art machinery. We adhere to the environmental norms on hygiene and sanitation and ensure the guidelines are followed."
+          ],
+          "ul": ["• Pantry Staff", "• Cleaning Staff", "• Mobile Patrols", "• Gardening Staff", "• On-Site Cleaning", "• All Kind of Fabric Cleaning"]
+        },
         "ref": {
           "path": "",
           "text": ""
         }
+      }
+    ],
+    "sprites": [
+      {
+        "heading": "Construction",
+        "description": "Integrating wireless or hardwired construction site CCTV systems with full-reporting biometric access control turnstiles and fire alarms to properly protect your site as well as your workforce.",
+        "icon": "wrench-adjustable"
+      },
+      {
+        "heading": "Vacant Property",
+        "description": "All the services landlords and property managers need to mitigate risks at vulnerable sites, and ensure insurance compliance – pro-actively, efficiently and cost-effectively.",
+        "icon": "building"
+      },
+      {
+        "heading": "Retail Businesses",
+        "description": "You need discretion, trust and responsiveness when managing multiple closures. Our expert teams of guards and locksmiths ensure sites and stock are protected.",
+        "icon": "shop"
+      }
+    ],
+    "miscellaneous": [
+      {
+        "heading": "Uniformed Security",
+        "image": "uniformed-security.jpg",
+        "list": ["Licensed Security Guards", "Security Dog Handlers", "Mobile Patrols", "Key Holding and Alarm Response", "Enforcement Services"]
+      },
+      {
+        "heading": "Electronic Security",
+        "image": "electronic-security.jpg",
+        "list": ["Commercial CCTV Systems", "Rental CCTV Systems", "Commercial Access Control Systems", "Integrated Systems", "Intruder Alarm Alert Systems"]
+      },
+      {
+        "heading": "Physical Security",
+        "image": "physical-security.jpg",
+        "list": ["Steel Security Doors & Windows", "Concert Barriers", "Palisade Fencing", "Heras Fencing", "Lock Replacement"]
       }
     ]
   },
@@ -240,6 +299,115 @@
         "ref": {
           "path": "",
           "text": ""
+        }
+      }
+    ],
+    "services": [
+      {
+        "heading": "Laundry",
+        "icon": "basket2-fill",
+        "content": [
+          {
+            "p": "We provide extended cleaning services for laundry and all other fabric needs for the masses."
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      },
+      {
+        "heading": "Dry Cleaning",
+        "icon": "basket",
+        "content": [
+          {
+            "p": "For on-demand customers, we provide exquisite dry cleaning services including all kinds of dresses and fabrics."
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      },
+      {
+        "heading": "Packaging & Safekeeping",
+        "icon": "box2-fill",
+        "content": [
+          {
+            "p": "If you want us to hold onto your laundry for a specefic time, we can store and package it on-demand. However an arrangement has to be made before that."
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      },
+      {
+        "heading": "Site Inspection",
+        "icon": "binoculars-fill",
+        "content": [
+          {
+            "p": "Site inspection for cleaning is also a part of our top services in this category. It is important to know how much time and effort would it take to clean a site and a survey should be in order."
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      },
+      {
+        "heading": "Site Cleaning",
+        "icon": "geo-fill",
+        "content": [
+          {
+            "p": "Contracted or on-demand, we have crews specefically built for on-site cleaning for you."
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      },
+      {
+        "heading": "Disaster Cleaning",
+        "icon": "lightning-charge-fill",
+        "content": [
+          {
+            "p": "If your premises has gone through some sort of disaster, we have experience in cleaning massive infrastructure that have gone through abuse."
+          }
+        ],
+        "ref": {
+          "path": "/",
+          "text": "Learn More"
+        }
+      }
+    ],
+    "slides": [
+      {
+        "image": "contracted-cleaning.jpg",
+        "title": "Contracted Cleaning",
+        "description": "We provide cleaning services to the masses such as big corporations, hospitals, schools and hotels etc. on contracted basis. You can hire us to clean your fabric as well as to clean your site. We also offer disaster cleaning as a service.",
+        "link": {
+          "text": "About Us",
+          "ref": "/about-us"
+        }
+      },
+      {
+        "image": "on-demand-cleaning.jpg",
+        "title": "On-Demand Cleaning",
+        "description": "We are also available for on-demand cleaning as in, we will clean your site and fabric without any contract as well. You can just bring in or hire us for a one-time service.",
+        "link": {
+          "text": "Our Services",
+          "ref": "/services"
+        }
+      },
+      {
+        "image": "on-site-cleaning.jpg",
+        "title": "On-site Cleaning",
+        "description": "We specefically specialize in on-site cleaning and disaster cleaning. If you need us to specefically clean a warehouse or a building, regardless the cause, we will do it for you.",
+        "link": {
+          "text": "Our Services",
+          "ref": "/services"
         }
       }
     ]

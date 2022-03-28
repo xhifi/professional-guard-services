@@ -6,7 +6,9 @@ const NavigationHeader = (props) => {
   return (
     <div className="nav-header">
       <Link href={link} passHref>
-        <Image alt={title} src={`/images/${brand}`} layout="intrinsic" width={300} height={50} className="img-fluid" />
+        <a>
+          <Image alt={title} src={`/images/${brand}`} layout="intrinsic" width={300} height={50} className="img-fluid" />
+        </a>
       </Link>
 
       <Link href={`tel:${phone}`} passHref>
