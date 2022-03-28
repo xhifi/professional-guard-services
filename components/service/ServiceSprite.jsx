@@ -4,8 +4,8 @@ const ServiceSprite = ({ data }) => {
       {data.map((v, i) => {
         return (
           <div className="col " key={i}>
-            <div className="card h-100 border-0">
-              <div className="card-header bg-white border-0 p-0 px-2 px-md-2">
+            <div className="card h-100 border-0 bg-transparent">
+              <div className="card-header bg-white border-0 p-0 px-2 px-md-2 bg-transparent">
                 <div className="row align-items-center">
                   <div
                     className="icon col-3 bg-main bg-gradint shadow rounded img-thumbnail d-flex align-items-center justify-content-center"
