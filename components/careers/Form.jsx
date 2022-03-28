@@ -5,7 +5,7 @@ const Form = () => {
 
   return (
     <form className="container bg-main p-4 border-r mb-5 mt-3 col-12 col-md-9" onSubmit={handleSubmit}>
-      <div className="row">
+      <div className="row row-cols-1 row-cols-md-2">
         <div className="form-part col mb-3">
           <label className="form-label" htmlFor="name">
             Your Full Name*
@@ -21,13 +21,14 @@ const Form = () => {
         </div>
         <div className="form-part col mb-3">
           <label className="form-label" htmlFor="phone">
-            Contact Number
+            Contact Number *
           </label>
           <input
             className={`form-control pg-input shadow ${state.succeeded && "text-secondary bg-main-light bg-gradient"}`}
             id="name"
             type="text"
             name="phone"
+            required
             disabled={state.succeeded}
           />
         </div>

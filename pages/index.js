@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Head from "next/head";
+import AOS from "aos";
 
 import Layout from "components/layouts/Main";
 
@@ -11,7 +12,6 @@ import Slider from "components/carousel/Slide";
 import CallToAction from "components/calltoaction/Cta";
 
 import { pullData } from "utils/pullData";
-
 import data from "data/pages.json";
 const homeData = pullData(data, "/");
 const servicesData = pullData(data, "/services");
@@ -19,7 +19,9 @@ const servicesData = pullData(data, "/services");
 export default function Home() {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
-  });
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <Layout>

@@ -12,21 +12,22 @@ const NavigationHeader = (props) => {
       </Link>
 
       <div>
-        <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="bg-main btn me-1 d-none d-md-inline-block">
+        <a href="https://www.facebook.com/pgsfmuk" target="_blank" rel="noreferrer" className="bg-main btn-main btn me-1 d-none d-md-inline-block">
           <i className="bi bi-facebook"></i>
         </a>
-        <a href="https://www.twitter.com" target="_blank" rel="noreferrer" className="bg-main btn me-1 d-none d-md-inline-block">
+        <a href="https://www.twitter.com" target="_blank" rel="noreferrer" className="bg-main btn-main btn me-1 d-none d-md-inline-block">
           <i className="bi bi-twitter"></i>
         </a>
-        <a href="https://www.googlemaps.com" target="_blank" rel="noreferrer" className="bg-main btn me-1 d-none d-md-inline-block">
+        <a href="https://business.google.com/dashboard/l/01627350215998689711" target="_blank" rel="noreferrer" className="bg-main btn-main btn me-1 d-none d-md-inline-block">
           <i className="bi bi-google"></i>
         </a>
-        <Link href={`tel:${phone}`} passHref>
-          <a className="ms-3 ms-md-0 btn btn-main d-none d-md-inline-block">
-            <i className="bi bi-telephone-fill me-2"></i>
-            {phone}
-          </a>
-        </Link>
+        <a href="https://www.instagram.com/pgsfmuk/" target="_blank" rel="noreferrer" className="bg-main btn-main btn me-1 d-none d-md-inline-block">
+          <i className="bi bi-instagram"></i>
+        </a>
+        <a className="ms-3 ms-md-0 btn btn-main d-none d-md-inline-block" href={`tel:${phone}`}>
+          <i className="bi bi-telephone-fill me-2"></i>
+          {phone}
+        </a>
       </div>
     </div>
   );

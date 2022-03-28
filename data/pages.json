@@ -2,7 +2,7 @@
   {
     "title": "Home",
     "path": "/",
-    "icon": "home",
+    "icon": "house-fill",
     "callToAction": {
       "title": "Welcome to Professional Guard Services Ltd.",
       "description": "",
@@ -127,7 +127,7 @@
     "title": "About Us",
     "description": "",
     "path": "/about-us",
-    "icon": "info",
+    "icon": "info-circle-fill",
     "features": [
       {
         "heading": "About Us",
@@ -150,7 +150,7 @@
   {
     "title": "Services",
     "path": "/services",
-    "icon": "phone",
+    "icon": "clipboard2-check-fill",
     "services": [
       {
         "heading": "Uniformed Services",
@@ -286,7 +286,7 @@
   {
     "title": "Cleaning",
     "path": "/cleaning",
-    "icon": "user",
+    "icon": "stars",
     "features": [
       {
         "heading": "Some Heading",
@@ -415,7 +415,7 @@
   {
     "title": "Careers",
     "path": "/careers",
-    "icon": "stack",
+    "icon": "person-fill",
     "features": [
       {
         "heading": "Some Heading",
@@ -435,7 +435,7 @@
   {
     "title": "Site Inspection Application",
     "path": "/site-inspection-application",
-    "icon": "contact",
+    "icon": "chat-right-text-fill",
     "features": [
       {
         "heading": "Some Heading",
@@ -455,7 +455,7 @@
   {
     "title": "Contact Us",
     "path": "/contact",
-    "icon": "phone",
+    "icon": "telephone-fill",
     "features": [
       {
         "heading": "Some Heading",

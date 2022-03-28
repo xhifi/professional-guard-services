@@ -13,7 +13,7 @@ const Feature = ({ orientation, content, heading, image }) => {
                 return <p key={i}>{v}</p>;
               })}
           </div>
-          <div className="col-12 col-md-6 col-lg-5 px-0 d-flex align-items-center border-r overflow-hidden shadow feature-img mb-3 mb-md-0 order-2 order-sm-1 order-md-2">
+          <div className="col-12 col-md-6 col-lg-5 px-0 d-flex align-items-center border-r overflow-hidden shadow feature-img mb-3 mb-md-0 order-2 order-sm-1 order-md-2 ">
             <Image src={image || placeholder} alt={heading} layout="intrinsic" width={509 * 2} height={339 * 2} quality={100} />
           </div>
         </div>

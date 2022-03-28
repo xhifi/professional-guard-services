@@ -36,7 +36,10 @@ const Navbar = () => {
               return (
                 <li className="mb-1 mb-md-0 me-md-1" key={index}>
                   <Link href={page.path} passHref>
-                    <a className={`d-block rounded p-2 text-white text-decoration-none btn-hov-tst ${router.pathname === page.path ? "link-active" : ""}`}>{page.title}</a>
+                    <a className={`d-block rounded p-2 text-white text-decoration-none btn-hov-tst ${router.pathname === page.path ? "link-active" : ""}`}>
+                      <i className={`bi bi-${page.icon} me-1`}></i>
+                      {page.title}
+                    </a>
                   </Link>
                 </li>
               );

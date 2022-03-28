@@ -5,7 +5,7 @@ const SiteInspection = () => {
 
   return (
     <form className="bg-main p-4 border-r" onSubmit={handleSubmit}>
-      <div className="row">
+      <div className="row row-cols-1 row-cols-md-2">
         <div className="form-part col mb-3">
           <label className="form-label" htmlFor="name">
             Your Full Name*
@@ -33,7 +33,7 @@ const SiteInspection = () => {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row row-cols-1 row-cols-md-2">
         <div className="form-part mb-3 col-12 col-md-6">
           <label className="form-label" htmlFor="siteName">
             Site Name*
@@ -62,7 +62,7 @@ const SiteInspection = () => {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row row-cols-1 row-cols-md-2">
         <div className="form-part mb-3 col-12 col-md-6">
           <label className="form-label" htmlFor="officerName">
             Officer&apos;s Name*
@@ -84,9 +84,8 @@ const SiteInspection = () => {
           <input
             className={`form-control pg-input shadow ${state.succeeded && "text-secondary bg-main-light bg-gradient"}`}
             id="siaNumber"
-            type="number"
-            maxLength="16"
-            minLength="16"
+            type="text"
+            placeholder="1234 5678 9012 3456"
             name="Officer SIA Number"
             required
             disabled={state.succeeded}
