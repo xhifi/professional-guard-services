@@ -22,6 +22,17 @@ const Main = ({ children }) => {
           })}
         </title>
         <meta name="description" content={contactData.description} />
+        <meta
+          property="og:title"
+          content={`${pages.map((page) => {
+            if (router.pathname === page.path) {
+              return `${contactData.title} | ${page.title}`;
+            }
+          })} - My Clothing Store`}
+        />
+        <meta property="og:description" content={contactData.description} />
+        <meta property="og:url" content={`https://pgssecurity.co.uk`} />
+        <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navigation />
