@@ -28,7 +28,7 @@ const Main = ({ children }) => {
             if (router.pathname === page.path) {
               return `${contactData.title} | ${page.title}`;
             }
-          })} - My Clothing Store`}
+          })}`}
         />
         <meta property="og:description" content={contactData.description} />
         <meta property="og:url" content={`https://pgssecurity.co.uk`} />
