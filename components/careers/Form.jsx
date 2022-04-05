@@ -4,7 +4,7 @@ const Form = () => {
   const [state, handleSubmit] = useForm("contactForm");
 
   return (
-    <form className="container bg-main p-4 border-r mb-5 mt-3 col-12 col-md-9" onSubmit={handleSubmit}>
+    <form className="container bg-main p-4 border-r col-12" onSubmit={handleSubmit}>
       <div className="row row-cols-1 row-cols-md-2">
         <div className="form-part col mb-3">
           <label className="form-label" htmlFor="name">

@@ -8,8 +8,18 @@ const ContactCol = ({ data }) => {
           <Image src={`/images/${data.logoLight}`} alt={data.title} layout="responsive" width={300} height={50} />
         </a>
       </Link>
-      <p className="m-0">{data.address}</p>
-      <p className="m-0">{data.phone}</p>
+      <p className="m-0">
+        <i class="bi bi-geo-alt-fill me-2"></i>
+        {data.address}
+      </p>
+      <p className="m-0">
+        <i class="bi bi-telephone-fill me-2"></i>
+        {data.phone}
+      </p>
+      <p className="m-0">
+        <i class="bi bi-envelope-fill me-2"></i>
+        {data.email}
+      </p>
     </div>
   );
 };

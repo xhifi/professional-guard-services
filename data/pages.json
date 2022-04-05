@@ -28,10 +28,19 @@
       {
         "image": "2.png",
         "title": "Providing High-End Security Solutions",
-        "description": "Since its inception, PGS&FM Security has become one of the fastest growing security providers in the Industry. We provides a comprehensive range of security services across a variety of industry sectors in all London.",
+        "description": "Since its inception, PGSFM Security has become one of the fastest growing security providers in the Industry. We provides a comprehensive range of security services across a variety of industry sectors in all London.",
         "link": {
           "text": "Our Services",
           "ref": "/services"
+        }
+      },
+      {
+        "image": "3.png",
+        "title": "We serve Individuals and Companies alike",
+        "description": "We are a contractor and private company that provides security services to a wide range of industries. We are a team of reliable, dedicated and proud ambitions and offer a complete security guard services to our clients.",
+        "link": {
+          "text": "Contact Us Today",
+          "ref": "/contact"
         }
       }
     ],
@@ -240,7 +249,7 @@
           "p": [
             "The best in class housekeeping services through quality staff, products and state of the art machinery. We adhere to the environmental norms on hygiene and sanitation and ensure the guidelines are followed."
           ],
-          "ul": ["• Pantry Staff", "• Cleaning Staff", "• Mobile Patrols", "• Gardening Staff", "• On-Site Cleaning", "• All Kind of Fabric Cleaning"]
+          "ul": ["• Cleaning Staff", "• Mobile Patrols", "• Gardening Staff", "• On-Site Cleaning"]
         },
         "ref": {
           "path": "",
@@ -303,45 +312,6 @@
       }
     ],
     "services": [
-      {
-        "heading": "Laundry",
-        "icon": "basket2-fill",
-        "content": [
-          {
-            "p": "We provide extended cleaning services for laundry and all other fabric needs for the masses."
-          }
-        ],
-        "ref": {
-          "path": "/",
-          "text": "Learn More"
-        }
-      },
-      {
-        "heading": "Dry Cleaning",
-        "icon": "basket",
-        "content": [
-          {
-            "p": "For on-demand customers, we provide exquisite dry cleaning services including all kinds of dresses and fabrics."
-          }
-        ],
-        "ref": {
-          "path": "/",
-          "text": "Learn More"
-        }
-      },
-      {
-        "heading": "Packaging & Safekeeping",
-        "icon": "box2-fill",
-        "content": [
-          {
-            "p": "If you want us to hold onto your laundry for a specefic time, we can store and package it on-demand. However an arrangement has to be made before that."
-          }
-        ],
-        "ref": {
-          "path": "/",
-          "text": "Learn More"
-        }
-      },
       {
         "heading": "Site Inspection",
         "icon": "binoculars-fill",
@@ -412,46 +382,7 @@
       }
     ]
   },
-  {
-    "title": "Careers",
-    "path": "/careers",
-    "icon": "person-fill",
-    "features": [
-      {
-        "heading": "Some Heading",
-        "image": "",
-        "content": [
-          {
-            "p": "First Line of the Paragraph."
-          }
-        ],
-        "ref": {
-          "path": "",
-          "text": ""
-        }
-      }
-    ]
-  },
-  {
-    "title": "Site Inspection Application",
-    "path": "/site-inspection-application",
-    "icon": "chat-right-text-fill",
-    "features": [
-      {
-        "heading": "Some Heading",
-        "image": "",
-        "content": [
-          {
-            "p": "First Line of the Paragraph."
-          }
-        ],
-        "ref": {
-          "path": "",
-          "text": ""
-        }
-      }
-    ]
-  },
+
   {
     "title": "Contact Us",
     "path": "/contact",

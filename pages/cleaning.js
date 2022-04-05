@@ -12,7 +12,7 @@ const Cleaning = () => {
     <Layout>
       <Hero
         heading="Our Cleaning Services"
-        description="PGS&amp;FM Security Services has a totally seperate division as well that works professionally in its own rights. Over time we have accumulated certain experience in the specefic field of cleaning. We provide a comprehensive solution to our clients regarding cleaning all sorts of objects and places, whether you want a contracted cleaning service for your whole organization such as school/hospital/resturant etc or just some specefic parts of your company's domains such as warehouses or offices. Here at PGS&amp;FM Security we consider everything a part of public service and we try to entertain and provide a comprehensive sets of services as their requirement. Everything from fabrics to actual complete sites, we provide all sorts of cleaning solutions."
+        description="PGSFM Security Services has a totally seperate division as well that works professionally in its own rights. Over time we have accumulated certain experience in the specefic field of cleaning. We provide a comprehensive solution to our clients regarding cleaning all sorts of objects and places, whether you want a contracted cleaning service for your whole organization such as school/hospital/resturant etc or just some specefic parts of your company's domains such as warehouses or offices. Here at PGSFM Security we consider everything a part of public service and we try to entertain and provide a comprehensive sets of services as their requirement. Everything from fabrics to actual complete sites, we provide all sorts of cleaning solutions."
       />
       <div className="container-fluid px-3 px-lg-5">
         <div className="row row-cols-1 row-cols-md-3 py-5">
