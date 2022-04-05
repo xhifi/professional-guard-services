@@ -7,8 +7,8 @@ const Column = ({ list, title }) => {
         {list.map((v, i) => {
           return (
             <li key={i}>
+              <i className="bi bi-chevron-right"></i>
               <Link href={v.link} passHref>
-                <i className="bi bi-chevron-right"></i>
                 <a className="text-decoration-none text-white">{v.text}</a>
               </Link>
             </li>
