@@ -1,6 +1,6 @@
 import { useForm, ValidationError } from "@formspree/react";
 
-const Form = () => {
+const CareersForm = () => {
   const [state, handleSubmit] = useForm("contactForm");
 
   return (
@@ -88,4 +88,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default CareersForm;

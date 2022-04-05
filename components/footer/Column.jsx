@@ -8,6 +8,7 @@ const Column = ({ list, title }) => {
           return (
             <li key={i}>
               <Link href={v.link} passHref>
+                <i className="bi bi-chevron-right"></i>
                 <a className="text-decoration-none text-white">{v.text}</a>
               </Link>
             </li>

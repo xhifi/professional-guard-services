@@ -1,4 +1,4 @@
-import Form from "components/careers/Form";
+import Form from "components/careers/CareersForm";
 const CareersMain = ({ data }) => {
   return (
     <main className="px-3 px-lg-5 mt-5">
