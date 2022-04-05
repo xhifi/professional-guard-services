@@ -13,7 +13,7 @@ import { pullData } from "utils/pullData";
 
 const contactData = pullData(data, "/contact");
 
-const contact = () => {
+const Contact = () => {
   const [formValue, setFormValue] = useState("null");
 
   return (
@@ -48,4 +48,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
