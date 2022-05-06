@@ -1,6 +1,7 @@
 import Link from "next/link";
-
-const Hero = ({ heading, description, map, buttonText, buttonRef, headingAlignment }) => {
+import SideDetails from "components/form/ContactFormSideBar";
+import siteMetaData from "data/siteData";
+const Hero = ({ heading, description, map, buttonText, buttonRef, headingAlignment, contactInformation }) => {
   return (
     <div className="container-fluid px-md-5 py-4 bg-main bg-gradient text-white">
       <h2 className={`text-bold text-${headingAlignment}`}>{heading}</h2>
@@ -24,6 +25,7 @@ const Hero = ({ heading, description, map, buttonText, buttonRef, headingAlignme
           ></iframe>
         </div>
       )}
+      {contactInformation && <SideDetails siteData={siteMetaData} />}
     </div>
   );
 };

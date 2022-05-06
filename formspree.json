@@ -24,6 +24,10 @@
         }
       }
     },
+    "complaints": {
+      "name": "Complaints",
+      "actions": [{ "type": "email", "to": "info@brainloggers.co.uk" }]
+    },
     "siteInspectionForm": {
       "name": "Site Inspection Form",
       "actions": [{ "type": "email", "to": "info@pgssecurityfm.co.uk" }]

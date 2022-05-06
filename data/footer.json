@@ -3,20 +3,24 @@
     "title": "Policy Statements",
     "subjects": [
       {
-        "link": "/policy-statements/health-and-safety",
+        "link": "/privacy-policies/pgsfm-health-and-safety-policy.pdf",
         "text": "Health and Safety Policy"
       },
       {
-        "link": "/policy-statements/business-ethics",
+        "link": "/privacy-policies/pgsfm-business-ethics-policy.pdf",
         "text": "Business Ethics"
       },
       {
-        "link": "/policy-statements/environmental-policy",
+        "link": "/privacy-policies/pgsfm-environmental-policy.pdf",
         "text": "Environmental Policy"
       },
       {
-        "link": "/policy-statements/data-protection",
+        "link": "/privacy-policies/pgsfm-data-protection-policy.pdf",
         "text": "Data Protection"
+      },
+      {
+        "link": "/privacy-policies/pgsfm-environmental-policy.pdf",
+        "text": "Privacy Policy"
       }
     ]
   },
