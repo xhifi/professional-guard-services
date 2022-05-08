@@ -77,12 +77,7 @@ const Complaints = () => {
         />
         <ValidationError prefix="Message" field="message" errors={state.errors} />
       </div>
-      <h4>
-        Download the application form{" "}
-        <a href="/forms/complaint_form.pdf" className="text-light">
-          by clicking here
-        </a>
-      </h4>
+
       <button className={`btn btn-light text-main shadow ${state.succeeded && "disabled"}`} type="submit" disabled={state.submitting}>
         {state.succeeded ? "✓ Submitted" : "Submit"}
       </button>
