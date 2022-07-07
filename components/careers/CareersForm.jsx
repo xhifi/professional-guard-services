@@ -795,7 +795,7 @@ const CareersForm = () => {
 
       <div className="form-part mb-3 ">
         <label className="form-label" htmlFor="medicaldetails">
-          If you chose "I do not confirm", please state all medical issues which can impact your ability to perform the roles of a security operative
+          If you chose &quot;I do not confirm&quot;, please state all medical issues which can impact your ability to perform the roles of a security operative
         </label>
         <textarea
           className={`form-control pg-input shadow ${state.succeeded && "text-secondary bg-main-light bg-gradient"}`}
