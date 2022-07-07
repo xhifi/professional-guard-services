@@ -10,6 +10,7 @@ import Accordion from "components/accordion/Accordion";
 import Features from "components/feature/Features";
 import Slider from "components/carousel/Slide";
 import CallToAction from "components/calltoaction/Cta";
+import CertificateSlider from "components/certificates/CertificateSlider";
 
 import { pullData } from "utils/pullData";
 import data from "data/pages.json";

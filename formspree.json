@@ -17,7 +17,7 @@
       "actions": [{ "type": "email", "to": "info@pgssecurityfm.co.uk" }],
       "fields": {
         "email": {
-          "required": true
+          "required": false
         },
         "phone": {
           "required": false

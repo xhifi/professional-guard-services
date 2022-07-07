@@ -10,7 +10,6 @@ import pages from "../../data/pages.json";
 
 const Main = ({ children }) => {
   const router = useRouter();
-
   return (
     <>
       <Head>

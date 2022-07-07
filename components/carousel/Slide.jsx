@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 import SlideInner from "./SlideInner";
-import { pullData } from "utils/pullData";
 
 const Slider = ({ data, orientation }) => {
   return (

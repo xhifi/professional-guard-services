@@ -1,11 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import Layout from "components/layouts/Main";
 import Hero from "components/Hero";
 import ContactForm from "components/form/ContactForm";
 import SiteInspection from "components/siteInspection/Form";
 import Careers from "components/careers/CareersForm";
-import SideDetails from "components/form/ContactFormSideBar";
 
 import data from "data/pages.json";
 
