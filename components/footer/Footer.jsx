@@ -8,7 +8,7 @@ const Footer = ({ data, contactData }) => {
         <div className="row">
           <ContactColumn data={contactData} />
           {data.map((item, index) => {
-            return <Column key={index} list={item.subjects} title={item.title} />;
+            return <Column key={index} list={item.subjects} title={item.title} numOfCols={data.length} />;
           })}
         </div>
       </div>

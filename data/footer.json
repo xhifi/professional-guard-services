@@ -53,18 +53,5 @@
         "text": "Take a look at our Services"
       }
     ]
-  },
-  {
-    "title": "Certifications",
-    "subjects": [
-      {
-        "link": "/",
-        "text": "item-1"
-      },
-      {
-        "link": "/",
-        "text": "item-2"
-      }
-    ]
   }
 ]
