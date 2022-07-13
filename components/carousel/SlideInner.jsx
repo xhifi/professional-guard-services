@@ -17,7 +17,7 @@ const LeftOrientation = ({ heading, text, link, linkText }) => {
 
 const RightOrientation = ({ heading, text, link, linkText }) => {
   return (
-    <div className="container-fluid px-5 content content-right d-flex">
+    <div className="container-fluid px-5 content-right d-flex">
       <div className="col-12 col-md-6 ps-0 ps-md-3 me-auto">
         <h1>{heading}</h1>
         <p>{text}</p>
@@ -31,7 +31,7 @@ const RightOrientation = ({ heading, text, link, linkText }) => {
 
 const CenterOrientation = ({ heading, text, link, linkText }) => {
   return (
-    <div className="container-fluid px-5 content content-center">
+    <div className="container-fluid px-5 content-center">
       <div className="col-12 ps-0 text-center">
         <h1>{heading}</h1>
         <p className="px-lg-5">{text}</p>
