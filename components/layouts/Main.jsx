@@ -25,6 +25,7 @@ const Main = ({ children }) => {
         <meta property="og:description" content={contactData.description} />
         <meta property="og:url" content={`https://pgsfm.uk`} />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="/brand.svg" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navigation />
