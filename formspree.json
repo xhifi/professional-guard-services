@@ -2,7 +2,7 @@
   "forms": {
     "contactForm": {
       "name": "Contact Form",
-      "actions": [{ "type": "email", "to": "info@pgssecurityfm.co.uk" }],
+      "actions": [{ "type": "email", "to": "info@pgsfm.uk" }],
       "fields": {
         "email": {
           "required": true
@@ -14,7 +14,7 @@
     },
     "jobForm": {
       "name": "Job Form",
-      "actions": [{ "type": "email", "to": "info@pgssecurityfm.co.uk" }],
+      "actions": [{ "type": "email", "to": "info@pgsfm.uk" }],
       "fields": {
         "email": {
           "required": false
@@ -26,11 +26,11 @@
     },
     "complaints": {
       "name": "Complaints",
-      "actions": [{ "type": "email", "to": "info@brainloggers.co.uk" }]
+      "actions": [{ "type": "email", "to": "info@pgsfm.uk" }]
     },
     "siteInspectionForm": {
       "name": "Site Inspection Form",
-      "actions": [{ "type": "email", "to": "info@pgssecurityfm.co.uk" }]
+      "actions": [{ "type": "email", "to": "info@pgsfm.uk" }]
     }
   }
 }

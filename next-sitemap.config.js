@@ -1,21 +1,11 @@
+/** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: process.env.SITE_URL || "https://pgssecurityfm.co.uk",
-  generateRobotsTxt: true, // (optional)
+  siteUrl: "https://pgsfm.uk",
   changefreq: "daily",
-  sourceDir: "/",
   priority: 0.7,
   sitemapSize: 5000,
-  //   exclude: ["/protected-page", "/awesome/secret-page"],
-  alternateRefs: [
-    {
-      href: "https://es.example.com",
-      hreflang: "es",
-    },
-    {
-      href: "https://fr.example.com",
-      hreflang: "fr",
-    },
-  ],
+  generateRobotsTxt: true,
+
   // Default transformation function
   transform: async (config, path) => {
     return {
@@ -27,5 +17,12 @@ const config = {
     };
   },
 
-  // ...other options
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: "*",
+        allow: "/",
+      },
+    ],
+  },
 };

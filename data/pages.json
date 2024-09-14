@@ -17,24 +17,6 @@
     },
     "slides": [
       {
-        "image": "1.png",
-        "title": "Protecting You Like Our Own",
-        "description": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event.",
-        "link": {
-          "text": "About Us",
-          "ref": "/about-us"
-        }
-      },
-      {
-        "image": "2.png",
-        "title": "Providing High-End Security Solutions",
-        "description": "Since its inception, PGSFM Security has become one of the fastest growing security providers in the Industry. We provides a comprehensive range of security services across a variety of industry sectors in all London.",
-        "link": {
-          "text": "Our Services",
-          "ref": "/services"
-        }
-      },
-      {
         "image": "3.png",
         "title": "We serve Individuals and Companies alike",
         "description": "We are a contractor and private company that provides security services to a wide range of industries. We are a team of reliable, dedicated and proud ambitions and offer a complete security guard services to our clients.",
@@ -42,12 +24,34 @@
           "text": "Contact Us Today",
           "ref": "/contact"
         }
+      },
+      {
+        "image": "2.png",
+        "title": "Protecting You Like Our Own",
+        "description": "For whatever reason, if you want protection, we will protect you. We are experienced in providing security guard services to a range of industries including the corporate sector, construction sites or even an event.",
+        "link": {
+          "text": "Contact Us Today",
+          "ref": "/contact"
+        }
+      },
+      {
+        "image": "security-guard.jpg",
+        "title": "Serving Individuals and Companies in the whole United Kingdom",
+        "description": "We have been providing security services to a wide range of industries and individuals in the United Kingdom. We are a team of reliable, dedicated and proud ambitions and offer a complete security guard services to our clients.",
+        "certification": {
+          "badge": "",
+          "alt": ""
+        },
+        "link": {
+          "text": "About Us",
+          "ref": "/about-us"
+        }
       }
     ],
     "features": [
       {
         "heading": "About Us",
-        "image": "sg-male-1.jpg",
+        "image": "security-guard-uk.jpg",
         "orientation": "left",
         "content": {
           "p": [
@@ -63,14 +67,15 @@
       },
       {
         "heading": "Why Choose us?",
-        "image": "sg_female.jpg",
+        "image": "security-uk-2.jpg",
         "orientation": "right",
         "content": {
           "p": [
-            "◉ 100% Clients Satisfaction Rate.",
-            "◉ We work hard and we work hard to protect you and your property from any harm that can be afflicted to it. We stand our guard when no one else does.",
+            "◉ We regularly update the sites we guard, do monthly administrative visits onsite and record officer data for any complaints.",
+            "◉ We consider communication to be the paramount feature of our services. We keep you informed of any changes or updates that are made to your site.",
+            "◉ We work hard to protect you and your property from any harm that can be afflicted to it. We stand our guard when no one else does.",
             "◉ We are always available, around the clock, 24/7 to answer your calls and to respond you as soon as we can.",
-            "◉ We charge you no hidden fees. No extra hidden costs, thus providing you with excellent services and economical support."
+            "◉ We charge competitive rates and provide the best services in the industry."
           ]
         },
         "ref": {
@@ -92,7 +97,7 @@
         "heading": "Meeting the Industry Standards",
         "content": [
           {
-            "p": "We are fully accredited and meeting all the possible industry standards so that you can rely on us in the hour of need. We make sure that each and everything that is done for you is done right and by the books."
+            "p": "We meet all the possible industry standards so that you can rely on us in the hour of need. We make sure that each and everything that is done for you is done right and by the books."
           }
         ]
       },
@@ -140,7 +145,7 @@
     "features": [
       {
         "heading": "About Us",
-        "image": "team-image.jpg",
+        "image": "security-uk.jpg",
         "orientation": "left",
         "content": {
           "h": "Welcome to Professional Guard Services Ltd.",
@@ -162,11 +167,11 @@
     "icon": "clipboard2-check-fill",
     "services": [
       {
-        "heading": "Uniformed Services",
-        "icon": "shield-shaded",
+        "heading": "Concierge Services",
+        "icon": "door-closed-fill",
         "content": [
           {
-            "p": "We are fully licensed and legally active security guard company. Our background checked security guards are available for your needs."
+            "p": "Our front-of-house and reception services are focused on creating a positive first impression and ensuring an exceptional visitor experience."
           }
         ],
         "ref": {
@@ -175,11 +180,11 @@
         }
       },
       {
-        "heading": "Key Holding and Alarm Response",
-        "icon": "key-fill",
+        "heading": "Uniformed Services",
+        "icon": "shield-shaded",
         "content": [
           {
-            "p": "We hold all keys and keep them in a secure environment and hold your keys with GPS technology making sure they are safe and fulfill their purpose securely."
+            "p": "Our exceptionally experienced uniformed and identifiable guards are always ready to meet the specific needs of your property while staying within your budget."
           }
         ],
         "ref": {
@@ -201,11 +206,11 @@
         }
       },
       {
-        "heading": "Electronic Services",
+        "heading": "CCTV Monitoring",
         "icon": "gear-wide-connected",
         "content": [
           {
-            "p": "We also tailor additional technical services such as CCTV systems installation, on-site communication systems and remote managemet solutions."
+            "p": "Provided the equipment, we provide outstanding CCTV monitoring services to our clients with a team of professionals who are always on the lookout for any suspicious activity."
           }
         ],
         "ref": {
@@ -214,11 +219,11 @@
         }
       },
       {
-        "heading": "Reception Services",
-        "icon": "chat-quote-fill",
+        "heading": "Industrial / Warehouse Security",
+        "icon": "buildings-fill",
         "content": [
           {
-            "p": "We provide fully trained receptionists to make sure your staff and visitors day runs smoothly. The first thing that your clients see or meet when entering can be safety regulated by entry cameras and a receptionist."
+            "p": "Our warehouse and industrial security services are designed to safeguard your assets, personnel, and operations around the clock. With specialized teams trained to handle the unique challenges of industrial environments, we provide comprehensive protection."
           }
         ],
         "ref": {
@@ -231,7 +236,7 @@
         "icon": "recycle",
         "content": [
           {
-            "p": "We provide a comprehensive cleaning services to our clients that include regular cleanups for fabrics to a full on full site cleaning services."
+            "p": "We provide a comprehensive cleaning services to our clients that include regular cleanups for offices, warehouses and end to end site cleaning."
           }
         ],
         "ref": {
@@ -242,14 +247,20 @@
     ],
     "features": [
       {
-        "heading": "Cleaning Services as a Whole",
+        "heading": "Contracted Cleaning Services",
         "image": "cleaning.jpg",
         "orientation": "right",
         "content": {
           "p": [
-            "The best in class housekeeping services through quality staff, products and state of the art machinery. We adhere to the environmental norms on hygiene and sanitation and ensure the guidelines are followed."
+            "Our contracted cleaning services are tailored to meet the specific needs of offices, corporate buildings, and warehouses. We ensure a spotless and hygienic environment, promoting productivity and well-being for your employees and visitors. With flexible scheduling, eco-friendly products, and a professional team, we deliver consistent and thorough cleaning solutions that maintain the highest standards of cleanliness and presentation across your facilities."
           ],
-          "ul": ["• Cleaning Staff", "• Mobile Patrols", "• Gardening Staff", "• On-Site Cleaning"]
+          "ul": [
+            "• Secure and safe after-hours cleaning",
+            "• Contracted Office Cleaning",
+            "• Corporate Buildings Cleaning",
+            "• Regular Contracted Cleaning",
+            "• Regular and hygenic Office and School cleaning"
+          ]
         },
         "ref": {
           "path": "",
@@ -278,17 +289,29 @@
       {
         "heading": "Uniformed Security",
         "image": "uniformed-security.jpg",
-        "list": ["Licensed Security Guards", "Security Dog Handlers", "Mobile Patrols", "Key Holding and Alarm Response", "Enforcement Services"]
-      },
-      {
-        "heading": "Electronic Security",
-        "image": "electronic-security.jpg",
-        "list": ["Commercial CCTV Systems", "Rental CCTV Systems", "Commercial Access Control Systems", "Integrated Systems", "Intruder Alarm Alert Systems"]
+        "list": ["Licensed Security Guards", "Security Patrol", "Risk Mitigation & Management", "Site Security", "Event Security"]
       },
       {
         "heading": "Physical Security",
+        "image": "electronic-security.jpg",
+        "list": [
+          "Personnel Protection",
+          "Corporate Protection & Security",
+          "Commercial Access Control Systems",
+          "Immediate Response Team",
+          "Periodic Ping Protocol"
+        ]
+      },
+      {
+        "heading": "Some Specialized Sectors",
         "image": "physical-security.png",
-        "list": ["Steel Security Doors & Windows", "Concert Barriers", "Palisade Fencing", "Heras Fencing", "Lock Replacement"]
+        "list": [
+          "Corporate Buildings",
+          "Warehouse Facilities Management",
+          "Hospitals & Schools",
+          "Public Sector Facilities Management",
+          "Retail Facilities Management"
+        ]
       }
     ]
   },
@@ -330,7 +353,7 @@
         "icon": "geo-fill",
         "content": [
           {
-            "p": "Contracted or on-demand, we have crews specefically built for on-site cleaning for you."
+            "p": "Contracted or on-demand, we have crews specifically built for on-site cleaning for you."
           }
         ],
         "ref": {
@@ -339,11 +362,11 @@
         }
       },
       {
-        "heading": "Disaster Cleaning",
+        "heading": "Contracted Cleaning",
         "icon": "lightning-charge-fill",
         "content": [
           {
-            "p": "If your premises has gone through some sort of disaster, we have experience in cleaning massive infrastructure that have gone through abuse."
+            "p": "If your workforce uses your site regularly we can manage regular and secure after-hours cleaning services."
           }
         ],
         "ref": {
@@ -382,7 +405,6 @@
       }
     ]
   },
-
   {
     "title": "Contact Us",
     "path": "/contact",

@@ -15,10 +15,11 @@ const Services = () => {
       <div className="container-fluid px-3 py-5 px-lg-5">
         <h3>We understand your problems</h3>
         <p>
-          No two sites have identical security issues, so we consistently develop our range of comprehensive and joined-up security services. We provide the best choice of
-          reliable, effective and appropriate ways to meet your individual site requirements, risks and budgets. <br />
-          Below are a few of the areas that we work in and some outlook of the security services that we provide. Please note, these are not all the services that we provide. If
-          you need anything to be done, you can let us know in a query at our Contact Page.
+          No two sites have identical security issues, so we consistently develop our range of comprehensive and joined-up security
+          services. We provide the best choice of reliable, effective and appropriate ways to meet your individual site requirements, risks
+          and budgets. <br />
+          Below are a few of the areas that we work in and some outlook of the security services that we provide. Please note, these are not
+          all the services that we provide. If you need anything to be done, you can let us know in a query at our Contact Page.
         </p>
       </div>
       <div className="container-fluid px-3 px-lg-5 pb-5">
@@ -32,7 +33,12 @@ const Services = () => {
       {servicesData.features.map((v, i) => {
         return (
           <div className="container-fluid px-3 px-lg-5 mb-5" key={i}>
-            <Feature heading={v.heading} image={`/images/features/${v.image}`} orientation="right" content={[...v.content.p, ...v.content.ul]} />
+            <Feature
+              heading={v.heading}
+              image={`/images/features/${v.image}`}
+              orientation="right"
+              content={[...v.content.p, ...v.content.ul]}
+            />
           </div>
         );
       })}

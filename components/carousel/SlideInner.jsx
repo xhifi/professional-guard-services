@@ -46,7 +46,14 @@ const CenterOrientation = ({ heading, text, link, linkText }) => {
 const SlideInner = ({ image, heading, text, link, linkText, orientation }) => {
   return (
     <div className="slide-inner position-relative">
-      <Image src={image} layout="fill" objectFit="cover" className="slide-img img-fluid position-absolute" alt={heading} priority />
+      <Image
+        src={image}
+        layout="fill"
+        objectFit="cover"
+        className="object-fit-cover slide-img img-fluid position-absolute"
+        alt={heading}
+        priority
+      />
       {orientation === "left" && <LeftOrientation heading={heading} text={text} link={link} linkText={linkText} />}
       {orientation === "right" && <RightOrientation heading={heading} text={text} link={link} linkText={linkText} />}
       {orientation === "center" && <CenterOrientation heading={heading} text={text} link={link} linkText={linkText} />}

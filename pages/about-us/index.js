@@ -10,8 +10,8 @@ import data from "data/pages.json";
 import siteMetaData from "data/siteData.json";
 import Accordion from "components/accordion/Accordion";
 const homeData = pullData(data, "/");
-
 const aboutData = pullData(data, "/about-us");
+
 const Index = () => {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
@@ -23,19 +23,19 @@ const Index = () => {
         aboutData.features.map((v, i) => {
           return (
             <div className="container-fluid px-3 px-lg-5" key={i}>
-              <Feature orientation={v.orientation} content={v.content.p} heading={v.content.h} image={v.content.image} />
+              <Feature orientation={v.orientation} content={v.content.p} heading={v.content.h} image={`/images/features/${v.image}`} />
             </div>
           );
         })}
       <div className="container-fluid px-3 px-lg-5 mb-4">
         <h2>Our Expertise</h2>
         <p>
-          During our time as a pioneer security company, we have developed certain benchmarks and thresholds for our performance and how we do in certain areas. Our extensive
-          experience of providing security and support services has taught us the value of utilising local expertise with the highest international standards of risk and project
-          management.
+          During our time as a pioneer security company, we have developed certain benchmarks and thresholds for our performance and how we
+          do in certain areas. Our extensive experience of providing security and support services has taught us the value of utilising
+          local expertise with the highest international standards of risk and project management.
           <br />
-          We select and empower the best people to work with is. We regularly update our local knowledge, expertise and procedures, and respond immediately and effectively to the
-          changing needs of our clients.
+          We select and empower the best people to work with is. We regularly update our local knowledge, expertise and procedures, and
+          respond immediately and effectively to the changing needs of our clients.
           <br />
           The five key concepts of our Approach are:
         </p>
@@ -51,13 +51,15 @@ const Index = () => {
           <div className="col">
             <h3>Why Choose Us?</h3>
             <p>
-              Professional Guard Services Ltd. gives a quality service! Customer satisfaction is high on our agenda and we work hard at building good relationships with the people
-              we work with. Good communication ensures we know exactly what our customers want, and our aim is to see satisfied customers and a confident delivery team.
+              Professional Guard Services Ltd. gives a quality service! Customer satisfaction is high on our agenda and we work hard at
+              building good relationships with the people we work with. Good communication ensures we know exactly what our customers want,
+              and our aim is to see satisfied customers and a confident delivery team.
             </p>
             <p>Professional Guard Services Ltd. recruits people who want to work and will go that extra mile to achieve.</p>
             <p>
-              Furthermore, our vision is to provide as transparent services as possible. As a result we will make sure that we charge you no hidden fee or if there is any other
-              fee, it be told you before it&apos;s payment, thus providing you with excellent services and economical support.
+              Furthermore, our vision is to provide as transparent services as possible. As a result we will make sure that we charge you no
+              hidden fee or if there is any other fee, it be told you before it&apos;s payment, thus providing you with excellent services
+              and economical support.
             </p>
           </div>
           <div className="col">

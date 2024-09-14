@@ -29,10 +29,10 @@ const Contact = () => {
                   <option selected disabled>
                     Select Contact Criteria
                   </option>
-                  <option value="1">Site Inspection Query</option>
-                  <option value="2">Applying for Job</option>
-                  <option value="3">General Query</option>
-                  <option value="4">Complaints</option>
+                  <option value="1">Report our company officer</option>
+                  <option value="2">Applying for job</option>
+                  <option value="3">General query</option>
+                  <option value="4">Site complaints</option>
                 </select>
               </div>
             </div>
