@@ -44,7 +44,7 @@
         },
         "link": {
           "text": "About Us",
-          "ref": "/about-us"
+          "ref": "/about"
         }
       }
     ],
@@ -140,7 +140,7 @@
   {
     "title": "About Us",
     "description": "",
-    "path": "/about-us",
+    "path": "/about",
     "icon": "info-circle-fill",
     "features": [
       {
@@ -382,7 +382,7 @@
         "description": "We provide cleaning services to the masses such as big corporations, hospitals, schools and hotels etc. on contracted basis. We provide all contracted and regular cleaning services to the corporate sector. We also offer disaster cleaning as a service.",
         "link": {
           "text": "About Us",
-          "ref": "/about-us"
+          "ref": "/about"
         }
       },
       {
